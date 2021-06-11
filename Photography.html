@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> WanderlustPhoto</title>
+
+        <link rel="stylesheet" href="style.css">
+        <style>
+            * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+            div.gallery {
+              margin: 1px;
+              float: left;
+              width: 180px;
+            }
+            
+            div.gallery:hover {
+              border: 1px solid #777;
+            }
+            
+            div.gallery img {
+              width: 100%;
+              height: auto;
+            }
+            
+            .header {
+              background-color: #f1f1f1;
+              background-image: url(./imgs/DSC_1890.jpg);
+              padding: 20px;
+              text-align: center;
+            }
+
+            /* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 10%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 80%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+            
+            </style>
+    </head>
+    <body>
+        <ul>
+            <li><a class="active" href="./home.html">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <div class="header">
+            <h1 style="color: white;">WanderlustPhoto</h1>
+        </div>
+
+        <div class="row">
+            <div class="column side">
+              <h2></h2>
+              <p></p>
+            </div>
+            
+            <div class="column middle">
+              <h2>Weddings</h2>
+              <div class="gallery">
+                <a target="_blank" href="./imgs/DSC_1890-2.jpg">
+                  <img src="./imgs/DSC_1890-2.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="./imgs/DSC_1890-2.jpg">
+                  <img src="./imgs/DSC_1890-2.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="./imgs/DSC_1890-2.jpg">
+                  <img src="./imgs/DSC_1890-2.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="./imgs/DSC_1890-2.jpg">
+                  <img src="./imgs/DSC_1890-2.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="./imgs/DSC_1890-2.jpg">
+                  <img src="./imgs/DSC_1890-2.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="./imgs/DSC_1890-2.jpg">
+                  <img src="./imgs/DSC_1890-2.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="./imgs/DSC_1890-2.jpg">
+                  <img src="./imgs/DSC_1890-2.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="./imgs/DSC_2187.jpg">
+                  <img src="./imgs/DSC_2187.jpg" alt="Forest" width="600" height="400">
+                </a>
+                <div class="desc"> </div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="./imgs/IMG_1734-2.jpg">
+                  <img src="./imgs/IMG_1734-2.jpg" alt="Northern Lights" width="600" height="400">
+                </a>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="./imgs/IMG_1734-3.jpg">
+                  <img src="./imgs/IMG_1734-3.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc"> </div>
+            </div>
+            </div>
+            
+            <div class="column side">
+              <h2></h2>
+              <p></p>
+            </div>
+          </div>
+
+        <h1> Wedding's</h1>
+
+        
+
+        <h1>Family's</h1>
+
+        
+    </body>
+</html>
